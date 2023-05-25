@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Playfair+Display&family=Playfair+Display+SC:ital@1&family=Trispace&display=swap');
+
+*{
+ margin: 0%;
+ padding: 0%; 
+} 
+body{
+    margin: 0%;
+    padding: 0%; 
+    background: linear-gradient(to right, #636FA4, #d1a9ff); 
+}
+.cabecalho__menu{
+    position: absolute;
+    font-family: 'Trispace', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    gap:250px;
+    height: 69px;
+    left: 100px;
+    right: 50px;
+    color: #E8CBC0;
+}
+strong{
+    display: flex;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Trispace', sans-serif;
+    color: #E8CBC0;
+}
+.conteudo{
+    position: absolute;
+    width: 556px;
+    height: 662px;
+    left: 158px;
+    top: 190px; 
+    font-size: 55px;
+    color: #E8CBC0;
+}
+.apresentacao{
+    margin-bottom: 20px;
+}
+.botao__busca{
+    position: absolute;
+    left: 50%;
+    top: 850px;
+    transform: translate(-50%, -50%);
+    width: 190px;
+    border: 2px solid #636FA4;
+    border-radius: 10px;
+    background-color:#E8CBC0;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    color: #636FA4;
+}
+.rodape{
+    display: flex; 
+}
+.search{
+    height:fit-content;
+    width: fit-content;
+    top: 842px;
+    left: 52.5%;
+}
+img{
+    position: absolute;
+    width: 707px;
+    height: 662px;
+    left: 1031px;
+    top: 84px;
+}
